@@ -54,9 +54,13 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="p-3">Summary: Latitude vs. X</h2>
-                        <a href="#"><img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png" alt="big image"></a>
+                        <a href="#"><img class="img-thumbnail float-left p-3" src="Resources/assets/images/Fig1.png" alt="Max temp fig"></a>
+                        <p class="mt-5">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeather Map API to assemble a dataset on over 500 cities.
+                        </p>
+                        <p class="mt-2">
+                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                        </p>
                     </div>
-                    <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique minima hic repellat quia adipisci esse qui! Laborum facere pariatur neque ullam assumenda. Consectetur eveniet aperiam enim laboriosam veniam non porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate provident enim consectetur molestias quis, veritatis vel rerum quaerat natus numquam! Iure quibusdam nesciunt alias quaerat. Necessitatibus voluptate deserunt quibusdam earum!</p>
                 </div>
                 
             </div>
@@ -64,7 +68,7 @@
             <div class="col-lg-4">
                 <h2 class="container p-3">Visualizations</h2>
                 <div class="row">
-                    <a class="col-sm-6 p-2" href="docs/temperature.html"><img class="img-thumbnail" src="Resources/assets/images/Fig1.png" alt="Max Temp fig"></a>
+                    <a class="col-sm-6 p-2 border" href="docs/temperature.html"><img class="img-thumbnail" src="Resources/assets/images/Fig1.png" alt="Max Temp fig"></a>
                     <a class="col-sm-6 p-2" href="docs/humidity.html"><img class="img-thumbnail" src="Resources/assets/images/Fig2.png" alt="Humidity fig"></a>
                     <a class="col-sm-6 p-2" href="docs/cloudiness.html"><img class="img-thumbnail" src="Resources/assets/images/Fig3.png" alt="Cloudiness fig"></a>
                     <a class="col-sm-6 p-2" href="docs/windspeed.html"><img class="img-thumbnail" src="Resources/assets/images/Fig4.png" alt="Wind Speed fig"></a>
@@ -91,7 +95,7 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { bg-dark }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
