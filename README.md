@@ -1,2 +1,2 @@
 # Web-Design-Challenge
-October 5, 2019s
+October 5, 2019
